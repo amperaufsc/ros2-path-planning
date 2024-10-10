@@ -1,0 +1,4 @@
+Invoking command in '/home/yasmin-nunes/ros2_path_planning/build/ros2_fringe_projection': /usr/bin/cmake /home/yasmin-nunes/ros2_path_planning/src/ros2_fringe_projection -DCMAKE_INSTALL_PREFIX=/home/yasmin-nunes/ros2_path_planning/install/ros2_fringe_projection
+Invoked command in '/home/yasmin-nunes/ros2_path_planning/build/ros2_fringe_projection' returned '0': /usr/bin/cmake /home/yasmin-nunes/ros2_path_planning/src/ros2_fringe_projection -DCMAKE_INSTALL_PREFIX=/home/yasmin-nunes/ros2_path_planning/install/ros2_fringe_projection
+Invoking command in '/home/yasmin-nunes/ros2_path_planning/build/ros2_fringe_projection': /usr/bin/cmake --build /home/yasmin-nunes/ros2_path_planning/build/ros2_fringe_projection -- -j4 -l4
+Invoked command in '/home/yasmin-nunes/ros2_path_planning/build/ros2_fringe_projection' returned '0': /usr/bin/cmake --build /home/yasmin-nunes/ros2_path_planning/build/ros2_fringe_projection -- -j4 -l4
