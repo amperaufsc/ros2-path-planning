@@ -14,6 +14,12 @@ find_package(ament_cmake REQUIRED)
 
 install(
         PROGRAMS 
+        ros2/path_subscriber.py 
+        DESTINATION lib/${PROJECT_NAME}
+)
+
+install(
+        PROGRAMS 
         ros2/tests/bayesian_inference_tests_csv.py 
         DESTINATION lib/${PROJECT_NAME}
 )
