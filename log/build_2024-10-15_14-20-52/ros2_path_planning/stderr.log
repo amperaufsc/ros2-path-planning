@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:50 (file):
+  file INSTALL cannot find
+  "/home/yasmin-nunes/ros2-path-planning/src/path_planning/ros2/tests/bayesian_inference_tests_csv.py":
+  No such file or directory.
+
+[0m

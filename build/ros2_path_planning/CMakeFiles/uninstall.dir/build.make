@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yasmin-nunes/ros2_path_planning/src/path_planning
+CMAKE_SOURCE_DIR = /home/yasmin-nunes/ros2-path-planning/src/path_planning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning
+CMAKE_BINARY_DIR = /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yasmin-nunes/ros2_path_planning/src/path_planning /home/yasmin-nunes/ros2_path_planning/src/path_planning /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yasmin-nunes/ros2-path-planning/src/path_planning /home/yasmin-nunes/ros2-path-planning/src/path_planning /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

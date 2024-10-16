@@ -7,6 +7,10 @@
   <maintainer email="yasminnunes0108@gmail.com">yasminnunes</maintainer>
   <license>Apache-2.0</license>
 
+  <exec_depend>rclpy</exec_depend> # declarando as dependencias 
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>numpy</exec_depend>
+
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <test_depend>ament_lint_auto</test_depend>

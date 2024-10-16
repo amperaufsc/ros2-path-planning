@@ -1,9 +1,0 @@
-[0.015s] Invoking command in '/home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning -- -j4 -l4
-[0.035s] [31mCMake Error at CMakeLists.txt:27:
-[0.035s]   Parse error.  Expected a newline, got identifier with text "fringe".
-[0.035s] 
-[0.035s] [0m
-[0.036s] -- Configuring incomplete, errors occurred!
-[0.036s] See also "/home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning/CMakeFiles/CMakeOutput.log".
-[0.036s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.039s] Invoked command in '/home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning -- -j4 -l4

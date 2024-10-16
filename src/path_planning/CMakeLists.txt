@@ -8,26 +8,22 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
 install(
         PROGRAMS 
-        ros2/path_subscriber.py 
-        DESTINATION lib/${PROJECT_NAME}
-)
-
-install(
-        PROGRAMS 
-        ros2/tests/bayesian_inference_tests_csv.py 
+        ros2/path_publisher.py 
         DESTINATION lib/${PROJECT_NAME}
 )
 
 install(
         DIRECTORY
-        ros2/bayesian_inference
-        DESTINATION path_planning/${PROJECT_NAME}
+        bayesian_inference
+        DESTINATION path_planning/${PROJECT_NAME} #lib 
 )
 
 if(BUILD_TESTING)

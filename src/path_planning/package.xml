@@ -9,6 +9,7 @@
 
   <exec_depend>rclpy</exec_depend> # declarando as dependencias 
   <exec_depend>std_msgs</exec_depend>
+  <exec_depend>numpy</exec_depend>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

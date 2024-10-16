@@ -1,2 +1,0 @@
-/home/yasmin-nunes/ros2_path_planning/build/ros2_fringe_projection/CMakeFiles/edit_cache.dir
-/home/yasmin-nunes/ros2_path_planning/build/ros2_fringe_projection/CMakeFiles/rebuild_cache.dir

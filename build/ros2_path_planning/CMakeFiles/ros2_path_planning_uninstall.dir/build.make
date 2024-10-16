@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yasmin-nunes/ros2_path_planning/src/path_planning
+CMAKE_SOURCE_DIR = /home/yasmin-nunes/ros2-path-planning/src/path_planning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning
+CMAKE_BINARY_DIR = /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning
 
 # Utility rule file for ros2_path_planning_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ros2_path_planning_uninstall.dir/compiler_depend.make
 include CMakeFiles/ros2_path_planning_uninstall.dir/progress.make
 
 CMakeFiles/ros2_path_planning_uninstall:
-	/usr/bin/cmake -P /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ros2_path_planning_uninstall: CMakeFiles/ros2_path_planning_uninstall
 ros2_path_planning_uninstall: CMakeFiles/ros2_path_planning_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ros2_path_planning_uninstall.dir/clean:
 .PHONY : CMakeFiles/ros2_path_planning_uninstall.dir/clean
 
 CMakeFiles/ros2_path_planning_uninstall.dir/depend:
-	cd /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yasmin-nunes/ros2_path_planning/src/path_planning /home/yasmin-nunes/ros2_path_planning/src/path_planning /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning /home/yasmin-nunes/ros2_path_planning/build/ros2_path_planning/CMakeFiles/ros2_path_planning_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yasmin-nunes/ros2-path-planning/src/path_planning /home/yasmin-nunes/ros2-path-planning/src/path_planning /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning/CMakeFiles/ros2_path_planning_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ros2_path_planning_uninstall.dir/depend
 
