@@ -1,0 +1,49 @@
+[1.317s] Invoking command in '/home/yasmin-nunes/ros2-path-planning/src/yolov8_ros/yolov8_ros': AMENT_PREFIX_PATH=/home/yasmin-nunes/ros2-path-planning/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yasmin-nunes/ros2-path-planning/install/yolov8_msgs LD_LIBRARY_PATH=/home/yasmin-nunes/ros2-path-planning/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages:/home/yasmin-nunes/ros2-path-planning/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build install --record /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/install.log --single-version-externally-managed install_data
+[1.589s] running egg_info
+[1.591s] creating ../../../build/yolov8_ros/yolov8_ros.egg-info
+[1.591s] writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[1.592s] writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[1.592s] writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[1.592s] writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[1.592s] writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[1.593s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[1.597s] reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[1.598s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[1.599s] running build
+[1.599s] running build_py
+[1.599s] creating /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build
+[1.599s] creating /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib
+[1.599s] creating /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros
+[1.600s] copying yolov8_ros/yolov8_node.py -> /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros
+[1.600s] copying yolov8_ros/debug_node.py -> /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros
+[1.600s] copying yolov8_ros/__init__.py -> /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros
+[1.600s] copying yolov8_ros/detect_3d_node.py -> /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros
+[1.600s] copying yolov8_ros/tracking_node.py -> /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros
+[1.601s] running install
+[1.601s] running install_lib
+[1.603s] creating /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.603s] copying /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros/yolov8_node.py -> /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.603s] copying /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros/debug_node.py -> /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.604s] copying /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros/__init__.py -> /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.604s] copying /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros/detect_3d_node.py -> /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.604s] copying /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build/lib/yolov8_ros/tracking_node.py -> /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros
+[1.605s] byte-compiling /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/yolov8_node.py to yolov8_node.cpython-310.pyc
+[1.610s] byte-compiling /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/debug_node.py to debug_node.cpython-310.pyc
+[1.614s] byte-compiling /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/__init__.py to __init__.cpython-310.pyc
+[1.614s] byte-compiling /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[1.619s] byte-compiling /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[1.621s] running install_data
+[1.622s] creating /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/share/ament_index
+[1.622s] creating /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/share/ament_index/resource_index
+[1.622s] creating /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/share/ament_index/resource_index/packages
+[1.622s] copying resource/yolov8_ros -> /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/share/ament_index/resource_index/packages
+[1.622s] copying package.xml -> /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/share/yolov8_ros
+[1.622s] running install_egg_info
+[1.626s] Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+[1.627s] running install_scripts
+[1.674s] Installing debug_node script to /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/yolov8_ros
+[1.674s] Installing detect_3d_node script to /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/yolov8_ros
+[1.674s] Installing tracking_node script to /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/yolov8_ros
+[1.674s] Installing yolov8_node script to /home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/yolov8_ros
+[1.675s] writing list of installed files to '/home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/install.log'
+[1.721s] Invoked command in '/home/yasmin-nunes/ros2-path-planning/src/yolov8_ros/yolov8_ros' returned '0': AMENT_PREFIX_PATH=/home/yasmin-nunes/ros2-path-planning/install/yolov8_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yasmin-nunes/ros2-path-planning/install/yolov8_msgs LD_LIBRARY_PATH=/home/yasmin-nunes/ros2-path-planning/install/yolov8_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yasmin-nunes/ros2-path-planning/install/yolov8_ros/lib/python3.10/site-packages:/home/yasmin-nunes/ros2-path-planning/install/yolov8_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/build install --record /home/yasmin-nunes/ros2-path-planning/build/yolov8_ros/install.log --single-version-externally-managed install_data
