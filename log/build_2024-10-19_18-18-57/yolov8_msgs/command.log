@@ -1,6 +1,0 @@
-Invoking command in '/home/yasmin-nunes/ros2-path-planning/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yasmin-nunes/ros2-path-planning/src/yolov8_ros/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/home/yasmin-nunes/ros2-path-planning/install/yolov8_msgs
-Invoked command in '/home/yasmin-nunes/ros2-path-planning/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yasmin-nunes/ros2-path-planning/src/yolov8_ros/yolov8_msgs -DCMAKE_INSTALL_PREFIX=/home/yasmin-nunes/ros2-path-planning/install/yolov8_msgs
-Invoking command in '/home/yasmin-nunes/ros2-path-planning/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yasmin-nunes/ros2-path-planning/build/yolov8_msgs -- -j4 -l4
-Invoked command in '/home/yasmin-nunes/ros2-path-planning/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yasmin-nunes/ros2-path-planning/build/yolov8_msgs -- -j4 -l4
-Invoking command in '/home/yasmin-nunes/ros2-path-planning/build/yolov8_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yasmin-nunes/ros2-path-planning/build/yolov8_msgs
-Invoked command in '/home/yasmin-nunes/ros2-path-planning/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yasmin-nunes/ros2-path-planning/build/yolov8_msgs

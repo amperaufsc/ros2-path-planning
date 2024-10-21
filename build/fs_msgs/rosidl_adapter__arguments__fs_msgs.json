@@ -1,0 +1,13 @@
+{
+  "package_name": "fs_msgs",
+  "non_idl_tuples": [
+    "/home/yasmin-nunes/ros2-path-planning/src/fs_msgs:msg/ControlCommand.msg",
+    "/home/yasmin-nunes/ros2-path-planning/src/fs_msgs:msg/FinishedSignal.msg",
+    "/home/yasmin-nunes/ros2-path-planning/src/fs_msgs:msg/GoSignal.msg",
+    "/home/yasmin-nunes/ros2-path-planning/src/fs_msgs:msg/Track.msg",
+    "/home/yasmin-nunes/ros2-path-planning/src/fs_msgs:msg/Cone.msg",
+    "/home/yasmin-nunes/ros2-path-planning/src/fs_msgs:msg/ExtraInfo.msg",
+    "/home/yasmin-nunes/ros2-path-planning/src/fs_msgs:msg/WheelStates.msg",
+    "/home/yasmin-nunes/ros2-path-planning/src/fs_msgs:srv/Reset.srv"
+  ]
+}

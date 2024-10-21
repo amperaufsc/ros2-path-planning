@@ -1,0 +1,622 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (fs_msgs) JobQueued: {'identifier': 'fs_msgs', 'dependencies': OrderedDict()}
+[0.000311] (ros2_path_planning) JobQueued: {'identifier': 'ros2_path_planning', 'dependencies': OrderedDict([('fs_msgs', '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs')])}
+[0.000399] (fs_msgs) JobStarted: {'identifier': 'fs_msgs'}
+[0.010516] (fs_msgs) JobProgress: {'identifier': 'fs_msgs', 'progress': 'cmake'}
+[0.011512] (fs_msgs) JobProgress: {'identifier': 'fs_msgs', 'progress': 'build'}
+[0.013096] (fs_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yasmin-nunes/ros2-path-planning/build/fs_msgs', '--', '-j4', '-l4'], 'cwd': '/home/yasmin-nunes/ros2-path-planning/build/fs_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yasmin-nunes'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yasmin-nunes'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yasmin-nunes/ros2-path-planning/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1360'), ('SYSTEMD_EXEC_PID', '1536'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4781'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yasmin-nunes/ros2-path-planning/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yasmin-nunes'), ('JOURNAL_STREAM', '8:12714'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yasmin-nunes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yasmin-nunes/.local/bin:/opt/ros/humble/bin:/home/yasmin-nunes/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yasminnunes-Inspiron-5566:@/tmp/.ICE-unix/1505,unix/yasminnunes-Inspiron-5566:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'a4a8e063b3bb4b628524626a74322a09'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4TXSV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-455ce98b45.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yasmin-nunes/ros2-path-planning/build/fs_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning:/opt/ros/humble')]), 'shell': False}
+[0.067570] (fs_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.084447] (fs_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.085792] (fs_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_fs_msgs\n'}
+[0.098924] (-) TimerEvent: {}
+[0.199225] (-) TimerEvent: {}
+[0.299518] (-) TimerEvent: {}
+[0.400792] (-) TimerEvent: {}
+[0.502928] (-) TimerEvent: {}
+[0.563156] (fs_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.564166] (fs_msgs) StdoutLine: {'line': b'creating fs_msgs.egg-info\n'}
+[0.564809] (fs_msgs) StdoutLine: {'line': b'writing fs_msgs.egg-info/PKG-INFO\n'}
+[0.565235] (fs_msgs) StdoutLine: {'line': b'writing dependency_links to fs_msgs.egg-info/dependency_links.txt\n'}
+[0.565556] (fs_msgs) StdoutLine: {'line': b'writing top-level names to fs_msgs.egg-info/top_level.txt\n'}
+[0.565715] (fs_msgs) StdoutLine: {'line': b"writing manifest file 'fs_msgs.egg-info/SOURCES.txt'\n"}
+[0.592540] (fs_msgs) StdoutLine: {'line': b"reading manifest file 'fs_msgs.egg-info/SOURCES.txt'\n"}
+[0.593433] (fs_msgs) StdoutLine: {'line': b"writing manifest file 'fs_msgs.egg-info/SOURCES.txt'\n"}
+[0.603034] (-) TimerEvent: {}
+[0.640506] (fs_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_fs_msgs_egg\n'}
+[0.703145] (-) TimerEvent: {}
+[0.803495] (-) TimerEvent: {}
+[0.903799] (-) TimerEvent: {}
+[1.004098] (-) TimerEvent: {}
+[1.104411] (-) TimerEvent: {}
+[1.206568] (-) TimerEvent: {}
+[1.306929] (-) TimerEvent: {}
+[1.384608] (fs_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_c.dir/rosidl_generator_c/fs_msgs/msg/detail/control_command__functions.c.o\x1b[0m\n'}
+[1.385054] (fs_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_c.dir/rosidl_generator_c/fs_msgs/msg/detail/finished_signal__functions.c.o\x1b[0m\n'}
+[1.387935] (fs_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_c.dir/rosidl_generator_c/fs_msgs/msg/detail/go_signal__functions.c.o\x1b[0m\n'}
+[1.407013] (-) TimerEvent: {}
+[1.429423] (fs_msgs) StdoutLine: {'line': b'[  5%] Built target fs_msgs__cpp\n'}
+[1.439638] (fs_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_c.dir/rosidl_generator_c/fs_msgs/msg/detail/track__functions.c.o\x1b[0m\n'}
+[1.507229] (-) TimerEvent: {}
+[1.610897] (-) TimerEvent: {}
+[1.711669] (-) TimerEvent: {}
+[1.812491] (-) TimerEvent: {}
+[1.915648] (-) TimerEvent: {}
+[2.016761] (-) TimerEvent: {}
+[2.118624] (-) TimerEvent: {}
+[2.219706] (-) TimerEvent: {}
+[2.321494] (-) TimerEvent: {}
+[2.423258] (-) TimerEvent: {}
+[2.524174] (-) TimerEvent: {}
+[2.589749] (fs_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.594292] (fs_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_c.dir/rosidl_generator_c/fs_msgs/msg/detail/extra_info__functions.c.o\x1b[0m\n'}
+[2.596805] (fs_msgs) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.597105] (fs_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_c.dir/rosidl_generator_c/fs_msgs/msg/detail/cone__functions.c.o\x1b[0m\n'}
+[2.626537] (-) TimerEvent: {}
+[2.727146] (-) TimerEvent: {}
+[2.768534] (fs_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.772567] (fs_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_c.dir/rosidl_generator_c/fs_msgs/msg/detail/wheel_states__functions.c.o\x1b[0m\n'}
+[2.827252] (-) TimerEvent: {}
+[2.868008] (fs_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_c.dir/rosidl_generator_c/fs_msgs/srv/detail/reset__functions.c.o\x1b[0m\n'}
+[2.928511] (-) TimerEvent: {}
+[2.972737] (fs_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libfs_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.028611] (-) TimerEvent: {}
+[3.128950] (-) TimerEvent: {}
+[3.231521] (-) TimerEvent: {}
+[3.332252] (-) TimerEvent: {}
+[3.433511] (-) TimerEvent: {}
+[3.491582] (fs_msgs) StdoutLine: {'line': b'[ 16%] Built target fs_msgs__rosidl_generator_c\n'}
+[3.508118] (fs_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.533612] (-) TimerEvent: {}
+[3.635512] (-) TimerEvent: {}
+[3.736034] (-) TimerEvent: {}
+[3.836344] (-) TimerEvent: {}
+[3.886646] (fs_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fs_msgs/msg/control_command__type_support.cpp.o\x1b[0m\n'}
+[3.940513] (-) TimerEvent: {}
+[4.040892] (-) TimerEvent: {}
+[4.141213] (-) TimerEvent: {}
+[4.221881] (fs_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fs_msgs/msg/detail/control_command__type_support.cpp.o\x1b[0m\n'}
+[4.241311] (-) TimerEvent: {}
+[4.342561] (-) TimerEvent: {}
+[4.422632] (fs_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fs_msgs/msg/detail/dds_fastrtps/control_command__type_support.cpp.o\x1b[0m\n'}
+[4.442654] (-) TimerEvent: {}
+[4.542922] (-) TimerEvent: {}
+[4.643220] (-) TimerEvent: {}
+[4.743564] (-) TimerEvent: {}
+[4.843844] (-) TimerEvent: {}
+[4.944137] (-) TimerEvent: {}
+[4.948413] (fs_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fs_msgs/msg/detail/control_command__type_support_c.cpp.o\x1b[0m\n'}
+[5.044259] (-) TimerEvent: {}
+[5.144645] (-) TimerEvent: {}
+[5.247666] (-) TimerEvent: {}
+[5.347999] (-) TimerEvent: {}
+[5.448359] (-) TimerEvent: {}
+[5.545592] (fs_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fs_msgs/msg/finished_signal__type_support.cpp.o\x1b[0m\n'}
+[5.548480] (-) TimerEvent: {}
+[5.648822] (-) TimerEvent: {}
+[5.708479] (fs_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fs_msgs/msg/detail/finished_signal__type_support_c.cpp.o\x1b[0m\n'}
+[5.737487] (fs_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fs_msgs/msg/detail/finished_signal__type_support.cpp.o\x1b[0m\n'}
+[5.742230] (fs_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fs_msgs/msg/detail/dds_fastrtps/finished_signal__type_support.cpp.o\x1b[0m\n'}
+[5.748934] (-) TimerEvent: {}
+[5.849928] (-) TimerEvent: {}
+[5.950827] (-) TimerEvent: {}
+[6.054917] (-) TimerEvent: {}
+[6.090652] (fs_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fs_msgs/msg/go_signal__type_support.cpp.o\x1b[0m\n'}
+[6.155021] (-) TimerEvent: {}
+[6.256051] (-) TimerEvent: {}
+[6.357047] (-) TimerEvent: {}
+[6.363542] (fs_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fs_msgs/msg/detail/go_signal__type_support_c.cpp.o\x1b[0m\n'}
+[6.457159] (-) TimerEvent: {}
+[6.558092] (-) TimerEvent: {}
+[6.581429] (fs_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fs_msgs/msg/detail/dds_fastrtps/go_signal__type_support.cpp.o\x1b[0m\n'}
+[6.587340] (fs_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fs_msgs/msg/detail/go_signal__type_support.cpp.o\x1b[0m\n'}
+[6.628303] (fs_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fs_msgs/msg/track__type_support.cpp.o\x1b[0m\n'}
+[6.659517] (-) TimerEvent: {}
+[6.760215] (-) TimerEvent: {}
+[6.860880] (-) TimerEvent: {}
+[6.961210] (-) TimerEvent: {}
+[7.047657] (fs_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fs_msgs/msg/detail/track__type_support_c.cpp.o\x1b[0m\n'}
+[7.061324] (-) TimerEvent: {}
+[7.164188] (-) TimerEvent: {}
+[7.188474] (fs_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fs_msgs/msg/cone__type_support.cpp.o\x1b[0m\n'}
+[7.264301] (-) TimerEvent: {}
+[7.365251] (-) TimerEvent: {}
+[7.418600] (fs_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fs_msgs/msg/detail/dds_fastrtps/track__type_support.cpp.o\x1b[0m\n'}
+[7.430272] (fs_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fs_msgs/msg/detail/track__type_support.cpp.o\x1b[0m\n'}
+[7.465359] (-) TimerEvent: {}
+[7.566312] (-) TimerEvent: {}
+[7.667336] (-) TimerEvent: {}
+[7.727583] (fs_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fs_msgs/msg/detail/cone__type_support_c.cpp.o\x1b[0m\n'}
+[7.767478] (-) TimerEvent: {}
+[7.792540] (fs_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fs_msgs/msg/extra_info__type_support.cpp.o\x1b[0m\n'}
+[7.870526] (-) TimerEvent: {}
+[7.971057] (-) TimerEvent: {}
+[8.071586] (-) TimerEvent: {}
+[8.172282] (-) TimerEvent: {}
+[8.272822] (-) TimerEvent: {}
+[8.323704] (fs_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fs_msgs/msg/detail/cone__type_support.cpp.o\x1b[0m\n'}
+[8.325716] (fs_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fs_msgs/msg/detail/dds_fastrtps/cone__type_support.cpp.o\x1b[0m\n'}
+[8.354552] (fs_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fs_msgs/msg/wheel_states__type_support.cpp.o\x1b[0m\n'}
+[8.372932] (-) TimerEvent: {}
+[8.432511] (fs_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fs_msgs/msg/detail/extra_info__type_support_c.cpp.o\x1b[0m\n'}
+[8.473043] (-) TimerEvent: {}
+[8.574018] (-) TimerEvent: {}
+[8.675166] (-) TimerEvent: {}
+[8.777367] (-) TimerEvent: {}
+[8.878903] (-) TimerEvent: {}
+[8.942921] (fs_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fs_msgs/srv/reset__type_support.cpp.o\x1b[0m\n'}
+[8.979027] (-) TimerEvent: {}
+[9.079978] (-) TimerEvent: {}
+[9.087672] (fs_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fs_msgs/msg/detail/wheel_states__type_support_c.cpp.o\x1b[0m\n'}
+[9.134910] (fs_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fs_msgs/msg/detail/extra_info__type_support.cpp.o\x1b[0m\n'}
+[9.173237] (fs_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fs_msgs/msg/detail/dds_fastrtps/extra_info__type_support.cpp.o\x1b[0m\n'}
+[9.181516] (-) TimerEvent: {}
+[9.282284] (-) TimerEvent: {}
+[9.383015] (-) TimerEvent: {}
+[9.483796] (-) TimerEvent: {}
+[9.523250] (fs_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libfs_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.584425] (-) TimerEvent: {}
+[9.670558] (fs_msgs) StdoutLine: {'line': b'[ 49%] Built target fs_msgs__rosidl_typesupport_cpp\n'}
+[9.682126] (fs_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fs_msgs/msg/detail/wheel_states__type_support.cpp.o\x1b[0m\n'}
+[9.684532] (-) TimerEvent: {}
+[9.781096] (fs_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fs_msgs/srv/detail/reset__type_support_c.cpp.o\x1b[0m\n'}
+[9.784638] (-) TimerEvent: {}
+[9.884982] (-) TimerEvent: {}
+[9.985323] (-) TimerEvent: {}
+[9.987719] (fs_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fs_msgs/msg/detail/dds_fastrtps/wheel_states__type_support.cpp.o\x1b[0m\n'}
+[10.069519] (fs_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fs_msgs/srv/detail/dds_fastrtps/reset__type_support.cpp.o\x1b[0m\n'}
+[10.085439] (-) TimerEvent: {}
+[10.185797] (-) TimerEvent: {}
+[10.286113] (-) TimerEvent: {}
+[10.386446] (-) TimerEvent: {}
+[10.486781] (-) TimerEvent: {}
+[10.495482] (fs_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fs_msgs/srv/detail/reset__type_support.cpp.o\x1b[0m\n'}
+[10.568983] (fs_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libfs_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.586889] (-) TimerEvent: {}
+[10.687654] (-) TimerEvent: {}
+[10.782601] (fs_msgs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.787755] (-) TimerEvent: {}
+[10.808736] (fs_msgs) StdoutLine: {'line': b'[ 57%] Built target fs_msgs__rosidl_typesupport_fastrtps_c\n'}
+[10.827828] (fs_msgs) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.888369] (-) TimerEvent: {}
+[10.961274] (fs_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libfs_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.988486] (-) TimerEvent: {}
+[11.089382] (-) TimerEvent: {}
+[11.160150] (fs_msgs) StdoutLine: {'line': b'[ 59%] Built target fs_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[11.189494] (-) TimerEvent: {}
+[11.290421] (-) TimerEvent: {}
+[11.357761] (fs_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libfs_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.390517] (-) TimerEvent: {}
+[11.490824] (-) TimerEvent: {}
+[11.540607] (fs_msgs) StdoutLine: {'line': b'[ 60%] Built target fs_msgs__rosidl_typesupport_introspection_cpp\n'}
+[11.590932] (-) TimerEvent: {}
+[11.691269] (-) TimerEvent: {}
+[11.772242] (fs_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fs_msgs/msg/finished_signal__type_support.cpp.o\x1b[0m\n'}
+[11.772494] (fs_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fs_msgs/msg/go_signal__type_support.cpp.o\x1b[0m\n'}
+[11.772651] (fs_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fs_msgs/msg/control_command__type_support.cpp.o\x1b[0m\n'}
+[11.791363] (-) TimerEvent: {}
+[11.894929] (-) TimerEvent: {}
+[11.919071] (fs_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fs_msgs/msg/cone__type_support.cpp.o\x1b[0m\n'}
+[11.919366] (fs_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fs_msgs/msg/track__type_support.cpp.o\x1b[0m\n'}
+[11.927958] (fs_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fs_msgs/msg/extra_info__type_support.cpp.o\x1b[0m\n'}
+[11.973076] (fs_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fs_msgs/msg/wheel_states__type_support.cpp.o\x1b[0m\n'}
+[11.977157] (fs_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/fs_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fs_msgs/srv/reset__type_support.cpp.o\x1b[0m\n'}
+[11.995031] (-) TimerEvent: {}
+[12.042553] (fs_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libfs_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.093673] (fs_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fs_msgs/msg/detail/control_command__type_support.c.o\x1b[0m\n'}
+[12.095023] (fs_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fs_msgs/msg/detail/finished_signal__type_support.c.o\x1b[0m\n'}
+[12.096469] (-) TimerEvent: {}
+[12.097666] (fs_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fs_msgs/msg/detail/go_signal__type_support.c.o\x1b[0m\n'}
+[12.146965] (fs_msgs) StdoutLine: {'line': b'[ 74%] Built target fs_msgs__rosidl_typesupport_c\n'}
+[12.156783] (fs_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fs_msgs/msg/detail/track__type_support.c.o\x1b[0m\n'}
+[12.188135] (fs_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fs_msgs/msg/detail/cone__type_support.c.o\x1b[0m\n'}
+[12.194914] (fs_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fs_msgs/msg/detail/extra_info__type_support.c.o\x1b[0m\n'}
+[12.196573] (-) TimerEvent: {}
+[12.215358] (fs_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fs_msgs/msg/detail/wheel_states__type_support.c.o\x1b[0m\n'}
+[12.235698] (fs_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fs_msgs/srv/detail/reset__type_support.c.o\x1b[0m\n'}
+[12.291947] (fs_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library libfs_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.296664] (-) TimerEvent: {}
+[12.348032] (fs_msgs) StdoutLine: {'line': b'[ 81%] Built target fs_msgs__rosidl_typesupport_introspection_c\n'}
+[12.372104] (fs_msgs) StdoutLine: {'line': b'[ 81%] Built target fs_msgs\n'}
+[12.395122] (fs_msgs) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.396750] (-) TimerEvent: {}
+[12.497083] (-) TimerEvent: {}
+[12.597387] (-) TimerEvent: {}
+[12.697691] (-) TimerEvent: {}
+[12.797991] (-) TimerEvent: {}
+[12.898286] (-) TimerEvent: {}
+[12.998584] (-) TimerEvent: {}
+[13.098862] (-) TimerEvent: {}
+[13.199165] (-) TimerEvent: {}
+[13.299436] (-) TimerEvent: {}
+[13.399742] (-) TimerEvent: {}
+[13.500067] (-) TimerEvent: {}
+[13.600373] (-) TimerEvent: {}
+[13.700659] (-) TimerEvent: {}
+[13.800996] (-) TimerEvent: {}
+[13.901274] (-) TimerEvent: {}
+[13.908033] (fs_msgs) StdoutLine: {'line': b'[ 82%] Built target fs_msgs__py\n'}
+[13.939308] (fs_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_py.dir/rosidl_generator_py/fs_msgs/msg/_go_signal_s.c.o\x1b[0m\n'}
+[13.939550] (fs_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_py.dir/rosidl_generator_py/fs_msgs/msg/_control_command_s.c.o\x1b[0m\n'}
+[13.939872] (fs_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_py.dir/rosidl_generator_py/fs_msgs/msg/_track_s.c.o\x1b[0m\n'}
+[13.941420] (fs_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_py.dir/rosidl_generator_py/fs_msgs/msg/_finished_signal_s.c.o\x1b[0m\n'}
+[14.001472] (-) TimerEvent: {}
+[14.102073] (-) TimerEvent: {}
+[14.202822] (-) TimerEvent: {}
+[14.304782] (-) TimerEvent: {}
+[14.407867] (-) TimerEvent: {}
+[14.508153] (-) TimerEvent: {}
+[14.608469] (-) TimerEvent: {}
+[14.691921] (fs_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_py.dir/rosidl_generator_py/fs_msgs/msg/_cone_s.c.o\x1b[0m\n'}
+[14.710577] (-) TimerEvent: {}
+[14.712284] (fs_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_py.dir/rosidl_generator_py/fs_msgs/msg/_extra_info_s.c.o\x1b[0m\n'}
+[14.713561] (fs_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_py.dir/rosidl_generator_py/fs_msgs/msg/_wheel_states_s.c.o\x1b[0m\n'}
+[14.733671] (fs_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_generator_py.dir/rosidl_generator_py/fs_msgs/srv/_reset_s.c.o\x1b[0m\n'}
+[14.813646] (-) TimerEvent: {}
+[14.914910] (-) TimerEvent: {}
+[15.015330] (-) TimerEvent: {}
+[15.116257] (fs_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fs_msgs/libfs_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[15.117177] (-) TimerEvent: {}
+[15.218410] (-) TimerEvent: {}
+[15.319700] (-) TimerEvent: {}
+[15.420653] (-) TimerEvent: {}
+[15.521344] (-) TimerEvent: {}
+[15.597494] (fs_msgs) StdoutLine: {'line': b'[ 93%] Built target fs_msgs__rosidl_generator_py\n'}
+[15.622594] (-) TimerEvent: {}
+[15.636629] (fs_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fs_msgs/_fs_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.638141] (fs_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fs_msgs/_fs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.647532] (fs_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/fs_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fs_msgs/_fs_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.722703] (-) TimerEvent: {}
+[15.824075] (-) TimerEvent: {}
+[15.924586] (-) TimerEvent: {}
+[16.026523] (-) TimerEvent: {}
+[16.098501] (fs_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fs_msgs/fs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.099849] (fs_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fs_msgs/fs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.105952] (fs_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fs_msgs/fs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.126635] (-) TimerEvent: {}
+[16.187620] (fs_msgs) StdoutLine: {'line': b'[100%] Built target fs_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[16.195607] (fs_msgs) StdoutLine: {'line': b'[100%] Built target fs_msgs__rosidl_typesupport_c__pyext\n'}
+[16.207130] (fs_msgs) StdoutLine: {'line': b'[100%] Built target fs_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.224881] (fs_msgs) CommandEnded: {'returncode': 0}
+[16.226781] (-) TimerEvent: {}
+[16.327198] (-) TimerEvent: {}
+[16.427515] (-) TimerEvent: {}
+[16.496155] (fs_msgs) JobProgress: {'identifier': 'fs_msgs', 'progress': 'install'}
+[16.506587] (fs_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yasmin-nunes/ros2-path-planning/build/fs_msgs'], 'cwd': '/home/yasmin-nunes/ros2-path-planning/build/fs_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yasmin-nunes'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yasmin-nunes'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yasmin-nunes/ros2-path-planning/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1360'), ('SYSTEMD_EXEC_PID', '1536'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4781'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yasmin-nunes/ros2-path-planning/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yasmin-nunes'), ('JOURNAL_STREAM', '8:12714'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yasmin-nunes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yasmin-nunes/.local/bin:/opt/ros/humble/bin:/home/yasmin-nunes/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yasminnunes-Inspiron-5566:@/tmp/.ICE-unix/1505,unix/yasminnunes-Inspiron-5566:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'a4a8e063b3bb4b628524626a74322a09'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4TXSV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-455ce98b45.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yasmin-nunes/ros2-path-planning/build/fs_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning:/opt/ros/humble')]), 'shell': False}
+[16.517712] (fs_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.518685] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/ament_index/resource_index/rosidl_interfaces/fs_msgs\n'}
+[16.519021] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs\n'}
+[16.519210] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv\n'}
+[16.519370] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/reset.h\n'}
+[16.519736] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail\n'}
+[16.519975] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__struct.h\n'}
+[16.520149] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__type_support.h\n'}
+[16.520313] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__functions.c\n'}
+[16.520492] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__functions.h\n'}
+[16.520663] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg\n'}
+[16.520833] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/go_signal.h\n'}
+[16.521091] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/cone.h\n'}
+[16.521279] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.521634] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/finished_signal.h\n'}
+[16.521867] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/wheel_states.h\n'}
+[16.522141] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/extra_info.h\n'}
+[16.522298] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail\n'}
+[16.522660] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__type_support.h\n'}
+[16.522917] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__functions.h\n'}
+[16.523171] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__type_support.h\n'}
+[16.523361] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__functions.c\n'}
+[16.523679] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__functions.h\n'}
+[16.523916] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__struct.h\n'}
+[16.524180] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__type_support.h\n'}
+[16.524407] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__struct.h\n'}
+[16.524764] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__functions.c\n'}
+[16.525006] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__struct.h\n'}
+[16.525282] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__functions.h\n'}
+[16.525521] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__functions.c\n'}
+[16.525754] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__struct.h\n'}
+[16.525955] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__struct.h\n'}
+[16.526120] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__functions.c\n'}
+[16.526277] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__type_support.h\n'}
+[16.526433] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__functions.c\n'}
+[16.527108] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__functions.c\n'}
+[16.527296] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__struct.h\n'}
+[16.527544] (-) TimerEvent: {}
+[16.527989] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__functions.h\n'}
+[16.528198] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__type_support.h\n'}
+[16.528363] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__type_support.h\n'}
+[16.528548] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__type_support.h\n'}
+[16.528719] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__functions.c\n'}
+[16.528884] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__functions.h\n'}
+[16.529032] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__struct.h\n'}
+[16.529189] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__functions.h\n'}
+[16.529354] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__functions.h\n'}
+[16.529869] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/track.h\n'}
+[16.530129] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/control_command.h\n'}
+[16.530361] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/environment/library_path.sh\n'}
+[16.530552] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/environment/library_path.dsv\n'}
+[16.530725] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_generator_c.so\n'}
+[16.530879] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_generator_c.so" to ""\n'}
+[16.531036] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs\n'}
+[16.531204] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv\n'}
+[16.531356] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail\n'}
+[16.531519] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__rosidl_typesupport_fastrtps_c.h\n'}
+[16.531688] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg\n'}
+[16.531852] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail\n'}
+[16.532033] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__rosidl_typesupport_fastrtps_c.h\n'}
+[16.532189] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__rosidl_typesupport_fastrtps_c.h\n'}
+[16.532361] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__rosidl_typesupport_fastrtps_c.h\n'}
+[16.532541] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__rosidl_typesupport_fastrtps_c.h\n'}
+[16.533159] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__rosidl_typesupport_fastrtps_c.h\n'}
+[16.533677] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__rosidl_typesupport_fastrtps_c.h\n'}
+[16.534019] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__rosidl_typesupport_fastrtps_c.h\n'}
+[16.534593] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.534875] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[16.535140] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.535374] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs\n'}
+[16.535718] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv\n'}
+[16.535987] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/reset.hpp\n'}
+[16.536218] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail\n'}
+[16.536448] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__builder.hpp\n'}
+[16.536713] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__struct.hpp\n'}
+[16.536934] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__traits.hpp\n'}
+[16.537204] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg\n'}
+[16.537429] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/finished_signal.hpp\n'}
+[16.537675] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/wheel_states.hpp\n'}
+[16.537920] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/track.hpp\n'}
+[16.538160] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/go_signal.hpp\n'}
+[16.538402] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail\n'}
+[16.538709] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__traits.hpp\n'}
+[16.539037] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__traits.hpp\n'}
+[16.539292] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__struct.hpp\n'}
+[16.539538] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__builder.hpp\n'}
+[16.539900] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__struct.hpp\n'}
+[16.540161] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__builder.hpp\n'}
+[16.540430] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__builder.hpp\n'}
+[16.540781] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__traits.hpp\n'}
+[16.541324] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__builder.hpp\n'}
+[16.541703] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__traits.hpp\n'}
+[16.541977] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__builder.hpp\n'}
+[16.542213] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__traits.hpp\n'}
+[16.542397] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__struct.hpp\n'}
+[16.543197] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__builder.hpp\n'}
+[16.543631] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__traits.hpp\n'}
+[16.543877] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__struct.hpp\n'}
+[16.544097] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__struct.hpp\n'}
+[16.544269] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__traits.hpp\n'}
+[16.544426] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__struct.hpp\n'}
+[16.544606] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__builder.hpp\n'}
+[16.544818] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__struct.hpp\n'}
+[16.545047] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/extra_info.hpp\n'}
+[16.545282] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/cone.hpp\n'}
+[16.545518] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/control_command.hpp\n'}
+[16.545747] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs\n'}
+[16.545947] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv\n'}
+[16.546168] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail\n'}
+[16.546359] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/dds_fastrtps\n'}
+[16.546788] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.547129] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg\n'}
+[16.547432] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.547732] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail\n'}
+[16.548001] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.548190] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.548611] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.548787] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/dds_fastrtps\n'}
+[16.548978] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.549266] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.549443] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.549629] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.549807] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.550114] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.550415] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs\n'}
+[16.550671] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv\n'}
+[16.550900] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail\n'}
+[16.551143] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__type_support.c\n'}
+[16.551337] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__rosidl_typesupport_introspection_c.h\n'}
+[16.551593] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg\n'}
+[16.551851] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail\n'}
+[16.552052] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__type_support.c\n'}
+[16.552327] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__type_support.c\n'}
+[16.552585] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__type_support.c\n'}
+[16.552878] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__rosidl_typesupport_introspection_c.h\n'}
+[16.553068] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__rosidl_typesupport_introspection_c.h\n'}
+[16.553315] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__type_support.c\n'}
+[16.553544] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__type_support.c\n'}
+[16.553921] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__rosidl_typesupport_introspection_c.h\n'}
+[16.554142] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__type_support.c\n'}
+[16.554403] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__rosidl_typesupport_introspection_c.h\n'}
+[16.554693] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__type_support.c\n'}
+[16.554968] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__rosidl_typesupport_introspection_c.h\n'}
+[16.555236] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__rosidl_typesupport_introspection_c.h\n'}
+[16.555496] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__rosidl_typesupport_introspection_c.h\n'}
+[16.555705] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.556432] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_introspection_c.so\n'}
+[16.556634] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.556807] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_c.so\n'}
+[16.557685] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_c.so" to ""\n'}
+[16.557989] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs\n'}
+[16.558239] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv\n'}
+[16.558489] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail\n'}
+[16.558735] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__type_support.cpp\n'}
+[16.558966] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.559198] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg\n'}
+[16.559487] (fs_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail\n'}
+[16.559748] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__type_support.cpp\n'}
+[16.559998] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.560282] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__type_support.cpp\n'}
+[16.560571] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/go_signal__type_support.cpp\n'}
+[16.560744] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__type_support.cpp\n'}
+[16.560916] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.561105] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/extra_info__type_support.cpp\n'}
+[16.561288] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/cone__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.561450] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/wheel_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.561642] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.562356] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__type_support.cpp\n'}
+[16.562813] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/control_command__type_support.cpp\n'}
+[16.563025] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/finished_signal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.563220] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/include/fs_msgs/fs_msgs/msg/detail/track__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.563389] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[16.563618] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.563782] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_cpp.so\n'}
+[16.564053] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[16.564320] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/environment/pythonpath.sh\n'}
+[16.564564] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/environment/pythonpath.dsv\n'}
+[16.564731] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs-0.1.1-py3.10.egg-info\n'}
+[16.564966] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs-0.1.1-py3.10.egg-info/top_level.txt\n'}
+[16.565153] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs-0.1.1-py3.10.egg-info/SOURCES.txt\n'}
+[16.565381] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs-0.1.1-py3.10.egg-info/dependency_links.txt\n'}
+[16.565683] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs-0.1.1-py3.10.egg-info/PKG-INFO\n'}
+[16.565914] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs\n'}
+[16.566077] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/fs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.566338] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/srv\n'}
+[16.566633] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/srv/_reset.py\n'}
+[16.566869] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/srv/__init__.py\n'}
+[16.567068] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/srv/_reset_s.c\n'}
+[16.567276] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/__init__.py\n'}
+[16.567440] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg\n'}
+[16.567675] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_cone_s.c\n'}
+[16.567844] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_go_signal_s.c\n'}
+[16.568001] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_go_signal.py\n'}
+[16.568159] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/__init__.py\n'}
+[16.568325] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_extra_info.py\n'}
+[16.568584] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_track_s.c\n'}
+[16.568777] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_cone.py\n'}
+[16.568954] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_wheel_states_s.c\n'}
+[16.569107] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_extra_info_s.c\n'}
+[16.569262] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_finished_signal.py\n'}
+[16.569426] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_control_command.py\n'}
+[16.569600] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_wheel_states.py\n'}
+[16.569756] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_track.py\n'}
+[16.569918] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_finished_signal_s.c\n'}
+[16.570083] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_control_command_s.c\n'}
+[16.570243] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/libfs_msgs__rosidl_generator_py.so\n'}
+[16.570398] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/_fs_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.570693] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/fs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.570862] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/fs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.571031] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/_fs_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[16.571188] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/_fs_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.627662] (-) TimerEvent: {}
+[16.677928] (fs_msgs) StdoutLine: {'line': b"Listing '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs'...\n"}
+[16.678276] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/__init__.py'...\n"}
+[16.678492] (fs_msgs) StdoutLine: {'line': b"Listing '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg'...\n"}
+[16.678688] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/__init__.py'...\n"}
+[16.678856] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_cone.py'...\n"}
+[16.679043] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_control_command.py'...\n"}
+[16.679206] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_extra_info.py'...\n"}
+[16.679389] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_finished_signal.py'...\n"}
+[16.679610] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_go_signal.py'...\n"}
+[16.679778] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_track.py'...\n"}
+[16.679937] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/msg/_wheel_states.py'...\n"}
+[16.680105] (fs_msgs) StdoutLine: {'line': b"Listing '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/srv'...\n"}
+[16.680261] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/srv/__init__.py'...\n"}
+[16.680417] (fs_msgs) StdoutLine: {'line': b"Compiling '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/srv/_reset.py'...\n"}
+[16.687421] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/fs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.687904] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/fs_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.688271] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/fs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.689002] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/fs_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.689380] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/fs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.690072] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages/fs_msgs/fs_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.690323] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_generator_py.so\n'}
+[16.691055] (fs_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib/libfs_msgs__rosidl_generator_py.so" to ""\n'}
+[16.691315] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/ControlCommand.idl\n'}
+[16.692275] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/FinishedSignal.idl\n'}
+[16.692550] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/GoSignal.idl\n'}
+[16.692770] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/Track.idl\n'}
+[16.692970] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/Cone.idl\n'}
+[16.693230] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/ExtraInfo.idl\n'}
+[16.693444] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/WheelStates.idl\n'}
+[16.693683] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/srv/Reset.idl\n'}
+[16.693907] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/ControlCommand.msg\n'}
+[16.694121] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/FinishedSignal.msg\n'}
+[16.694318] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/GoSignal.msg\n'}
+[16.694498] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/Track.msg\n'}
+[16.694869] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/Cone.msg\n'}
+[16.695049] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/ExtraInfo.msg\n'}
+[16.695216] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/msg/WheelStates.msg\n'}
+[16.695559] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/srv/Reset.srv\n'}
+[16.695780] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/srv/Reset_Request.msg\n'}
+[16.695956] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/srv/Reset_Response.msg\n'}
+[16.696205] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/ament_index/resource_index/package_run_dependencies/fs_msgs\n'}
+[16.696423] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/ament_index/resource_index/parent_prefix_path/fs_msgs\n'}
+[16.696871] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/environment/ament_prefix_path.sh\n'}
+[16.697090] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/environment/ament_prefix_path.dsv\n'}
+[16.697315] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/environment/path.sh\n'}
+[16.697623] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/environment/path.dsv\n'}
+[16.697902] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/local_setup.bash\n'}
+[16.698107] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/local_setup.sh\n'}
+[16.698337] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/local_setup.zsh\n'}
+[16.698609] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/local_setup.dsv\n'}
+[16.698784] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/package.dsv\n'}
+[16.699010] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/ament_index/resource_index/packages/fs_msgs\n'}
+[16.699192] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/export_fs_msgs__rosidl_generator_cExport.cmake\n'}
+[16.699432] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/export_fs_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.699626] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/export_fs_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.699861] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/export_fs_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.700103] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/export_fs_msgs__rosidl_generator_cppExport.cmake\n'}
+[16.700336] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/export_fs_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.700583] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/export_fs_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.700835] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/fs_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.701068] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/fs_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.701302] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/fs_msgs__rosidl_typesupport_cExport.cmake\n'}
+[16.701963] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/fs_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.702199] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/fs_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.702439] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/fs_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.702691] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/fs_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[16.703027] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/fs_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.703269] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/export_fs_msgs__rosidl_generator_pyExport.cmake\n'}
+[16.703612] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/export_fs_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.703928] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[16.704133] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.704369] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.704616] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.704849] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.705073] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.705271] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.705595] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/fs_msgsConfig.cmake\n'}
+[16.705869] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/cmake/fs_msgsConfig-version.cmake\n'}
+[16.706053] (fs_msgs) StdoutLine: {'line': b'-- Installing: /home/yasmin-nunes/ros2-path-planning/install/fs_msgs/share/fs_msgs/package.xml\n'}
+[16.710514] (fs_msgs) CommandEnded: {'returncode': 0}
+[16.727945] (-) TimerEvent: {}
+[16.830229] (-) TimerEvent: {}
+[16.930914] (-) TimerEvent: {}
+[16.996695] (fs_msgs) JobEnded: {'identifier': 'fs_msgs', 'rc': 0}
+[16.998787] (ros2_path_planning) JobStarted: {'identifier': 'ros2_path_planning'}
+[17.008989] (ros2_path_planning) JobProgress: {'identifier': 'ros2_path_planning', 'progress': 'cmake'}
+[17.010424] (ros2_path_planning) JobProgress: {'identifier': 'ros2_path_planning', 'progress': 'build'}
+[17.010782] (ros2_path_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning', '--', '-j4', '-l4'], 'cwd': '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yasmin-nunes'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yasmin-nunes'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yasmin-nunes/ros2-path-planning/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1360'), ('SYSTEMD_EXEC_PID', '1536'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4781'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yasmin-nunes/ros2-path-planning/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yasmin-nunes'), ('JOURNAL_STREAM', '8:12714'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yasmin-nunes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yasmin-nunes/.local/bin:/opt/ros/humble/bin:/home/yasmin-nunes/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yasminnunes-Inspiron-5566:@/tmp/.ICE-unix/1505,unix/yasminnunes-Inspiron-5566:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'a4a8e063b3bb4b628524626a74322a09'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4TXSV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-455ce98b45.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs:/home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/yasmin-nunes/ros2-path-planning/install/fs_msgs:/home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning')]), 'shell': False}
+[17.031501] (-) TimerEvent: {}
+[17.048213] (ros2_path_planning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[17.131569] (-) TimerEvent: {}
+[17.206909] (ros2_path_planning) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[17.231680] (-) TimerEvent: {}
+[17.234147] (ros2_path_planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[17.237097] (ros2_path_planning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[17.249183] (ros2_path_planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[17.261992] (ros2_path_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.276831] (ros2_path_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.331807] (-) TimerEvent: {}
+[17.346426] (ros2_path_planning) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.429761] (ros2_path_planning) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[17.430324] (ros2_path_planning) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.430862] (ros2_path_planning) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[17.431883] (-) TimerEvent: {}
+[17.432135] (ros2_path_planning) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.433148] (ros2_path_planning) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.437373] (ros2_path_planning) StdoutLine: {'line': b'-- Generating done\n'}
+[17.454311] (ros2_path_planning) StdoutLine: {'line': b'-- Build files have been written to: /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning\n'}
+[17.492709] (ros2_path_planning) CommandEnded: {'returncode': 0}
+[17.532141] (-) TimerEvent: {}
+[17.534111] (ros2_path_planning) JobProgress: {'identifier': 'ros2_path_planning', 'progress': 'install'}
+[17.534701] (ros2_path_planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning'], 'cwd': '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yasmin-nunes'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yasmin-nunes'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yasmin-nunes/ros2-path-planning/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1360'), ('SYSTEMD_EXEC_PID', '1536'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4781'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yasmin-nunes/ros2-path-planning/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yasmin-nunes'), ('JOURNAL_STREAM', '8:12714'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yasmin-nunes'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yasmin-nunes/.local/bin:/opt/ros/humble/bin:/home/yasmin-nunes/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yasminnunes-Inspiron-5566:@/tmp/.ICE-unix/1505,unix/yasminnunes-Inspiron-5566:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'a4a8e063b3bb4b628524626a74322a09'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4TXSV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-455ce98b45.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs:/home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yasmin-nunes/ros2-path-planning/install/fs_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/yasmin-nunes/ros2-path-planning/install/fs_msgs:/home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning')]), 'shell': False}
+[17.547633] (ros2_path_planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.549741] (ros2_path_planning) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/lib/ros2_path_planning/path_publisher.py\n'}
+[17.550590] (ros2_path_planning) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:54 (file):\n'}
+[17.551117] (ros2_path_planning) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[17.551289] (ros2_path_planning) StderrLine: {'line': b'  "/home/yasmin-nunes/ros2-path-planning/src/path_planning/src/fsds_msgs": No\n'}
+[17.551451] (ros2_path_planning) StderrLine: {'line': b'  such file or directory.\n'}
+[17.551641] (ros2_path_planning) StderrLine: {'line': b'\n'}
+[17.553233] (ros2_path_planning) StderrLine: {'line': b'\x1b[0m\n'}
+[17.553564] (ros2_path_planning) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference\n'}
+[17.553882] (ros2_path_planning) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference/__init__.py\n'}
+[17.554152] (ros2_path_planning) StdoutLine: {'line': b'-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference/bayesian_inference_planner.py\n'}
+[17.555810] (ros2_path_planning) CommandEnded: {'returncode': 1}
+[17.592601] (ros2_path_planning) JobEnded: {'identifier': 'ros2_path_planning', 'rc': 1}
+[17.603132] (-) EventReactorShutdown: {}

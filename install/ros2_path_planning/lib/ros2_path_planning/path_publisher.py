@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
+
 import rclpy
 from rclpy.node import Node
 from nav_msgs.msg import Odometry
-#from nav_msgs.msg import Track
 from nav_msgs.msg import Path
 from geometry_msgs.msg import Pose
 from geometry_msgs.msg import PoseStamped
 import numpy as np
-from sensor_msgs.msg import PointCloud
-from std_msgs.msg import Header
-from std_msgs.msg import Track
+from fs_msgs.msg import Track
 
 class PathPublisher(Node):
 
     def __init__(self):
         super().__init__('path_publisher')
         self.subscription = self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
-        self.subscription = self.create_subscription(PointCloud, '/track', self.track_callback, 10)
+        self.subscription = self.create_subscription(Track, '/fsds/track', self.track_callback, 10)
         self.publisher_ = self.create_publisher(Path, 'path', 10)
         timer_period = 0.5  
         
@@ -53,7 +51,6 @@ class PathPublisher(Node):
         poses.append(pose)
         path_msg.poses = poses
         self.publisher_.publish(path_msg)
-        
         
         
 def main():

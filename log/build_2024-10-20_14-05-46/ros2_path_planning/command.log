@@ -1,0 +1,1 @@
+Invoking command in '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yasmin-nunes/ros2-path-planning/install/yolov8_ros:/opt/ros/humble /usr/bin/cmake /home/yasmin-nunes/ros2-path-planning/src/path_planning -DCMAKE_INSTALL_PREFIX=/home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning

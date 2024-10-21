@@ -2,32 +2,33 @@
 import rclpy
 from rclpy.node import Node
 from nav_msgs.msg import Odometry
-#from nav_msgs.msg import Track
 from nav_msgs.msg import Path
 from geometry_msgs.msg import Pose
 from geometry_msgs.msg import PoseStamped
 import numpy as np
-from sensor_msgs.msg import PointCloud
-from std_msgs.msg import Header
-from std_msgs.msg import Track
+from fs_msgs.msg import Track
+from bayesian_inference.bayesian_inference_planner import Bayesian_Inference_Planner
+from bayesian_inference.bayesian_inference_planner import Vehicle_Pose
 
 class PathPublisher(Node):
 
     def __init__(self):
         super().__init__('path_publisher')
         self.subscription = self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
-        self.subscription = self.create_subscription(PointCloud, '/track', self.track_callback, 10)
-        self.publisher_ = self.create_publisher(Path, 'path', 10)
+        self.subscription = self.create_subscription(Track, '/fsds/track', self.track_callback, 10)
+        #self.publisher_ = self.create_publisher(Path, 'path', 10)
+        self.planner = (Bayesian_Inference_Planner)
         timer_period = 0.5  
         
     def track_callback(self, msg):
         pass
+    
+    
         
     def odom_callback(self, msg):
         self.get_logger().info('X: "%f"' % msg.pose.pose.position.x)
         self.get_logger().info('Y: "%f"' % msg.pose.pose.position.y)
-        
-        
+    
         orientation_q = msg.pose.pose.orientation
         orientation_list = [orientation_q.x, orientation_q.y, orientation_q.z, orientation_q.w]
         yaw = np.arctan2(2*(orientation_q.w*orientation_q.z - orientation_q.x*orientation_q.y), 1 - 2*((orientation_q.y)**2 + (orientation_q.z)**2))
@@ -53,7 +54,6 @@ class PathPublisher(Node):
         poses.append(pose)
         path_msg.poses = poses
         self.publisher_.publish(path_msg)
-        
         
         
 def main():

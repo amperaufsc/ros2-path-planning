@@ -1,0 +1,30 @@
+[0.020s] Invoking command in '/home/yasmin-nunes/ros2-path-planning/build/fs_msgs': /usr/bin/cmake /home/yasmin-nunes/ros2-path-planning/src/fs_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/yasmin-nunes/ros2-path-planning/install/fs_msgs
+[0.033s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.033s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.033s]   CMake.
+[0.033s] 
+[0.034s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.034s]   CMake that the project does not need compatibility with older versions.
+[0.034s] 
+[0.034s] [0m
+[0.108s] -- The C compiler identification is GNU 11.4.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.204s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.319s] -- Detecting C compile features
+[0.320s] -- Detecting C compile features - done
+[0.326s] -- Detecting CXX compiler ABI info
+[0.449s] -- Detecting CXX compiler ABI info - done
+[0.468s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.469s] -- Detecting CXX compile features
+[0.470s] -- Detecting CXX compile features - done
+[0.474s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.693s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.807s] [31mCMake Error at CMakeLists.txt:10 (add_message_files):
+[0.807s]   Unknown CMake command "add_message_files".
+[0.807s] 
+[0.808s] [0m
+[0.808s] -- Configuring incomplete, errors occurred!
+[0.808s] See also "/home/yasmin-nunes/ros2-path-planning/build/fs_msgs/CMakeFiles/CMakeOutput.log".
+[0.814s] Invoked command in '/home/yasmin-nunes/ros2-path-planning/build/fs_msgs' returned '1': /usr/bin/cmake /home/yasmin-nunes/ros2-path-planning/src/fs_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/yasmin-nunes/ros2-path-planning/install/fs_msgs

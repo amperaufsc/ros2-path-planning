@@ -1,0 +1,1 @@
+Invoking command in '/home/yasmin-nunes/ros2-path-planning/build/fs_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yasmin-nunes/ros2-path-planning/src/fs_msgs -DCMAKE_INSTALL_PREFIX=/home/yasmin-nunes/ros2-path-planning/install/fs_msgs

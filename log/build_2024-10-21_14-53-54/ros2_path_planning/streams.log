@@ -1,0 +1,30 @@
+[0.015s] Invoking command in '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning -- -j4 -l4
+[0.046s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.198s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.230s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.233s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.239s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.338s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.423s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.424s] -- Added test 'lint_cmake' to check CMake code style
+[0.424s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.427s] -- Added test 'xmllint' to check XML markup files
+[0.428s] -- Configuring done
+[0.432s] -- Generating done
+[0.434s] -- Build files have been written to: /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning
+[0.461s] Invoked command in '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning -- -j4 -l4
+[0.487s] Invoking command in '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning
+[0.495s] -- Install configuration: ""
+[0.496s] -- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/lib/ros2_path_planning/path_publisher.py
+[0.496s] -- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference
+[0.496s] -- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference/__init__.py
+[0.496s] -- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference/bayesian_inference_planner.py
+[0.496s] [31mCMake Error at cmake_install.cmake:54 (file):
+[0.496s]   file INSTALL cannot find
+[0.497s]   "/home/yasmin-nunes/ros2-path-planning/src/path_planning/src/fsds_msgs": No
+[0.497s]   such file or directory.
+[0.497s] 
+[0.497s] [0m
+[0.498s] Invoked command in '/home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yasmin-nunes/ros2-path-planning/build/ros2_path_planning

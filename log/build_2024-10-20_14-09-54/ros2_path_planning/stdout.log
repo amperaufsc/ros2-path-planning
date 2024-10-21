@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/lib/ros2_path_planning/path_publisher.py
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference/__init__.py
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference/bayesian_inference_planner.py
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ament_index/resource_index/package_run_dependencies/ros2_path_planning
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ament_index/resource_index/parent_prefix_path/ros2_path_planning
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/environment/ament_prefix_path.sh
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/environment/ament_prefix_path.dsv
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/environment/path.sh
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/environment/path.dsv
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/local_setup.bash
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/local_setup.sh
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/local_setup.zsh
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/local_setup.dsv
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/package.dsv
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ament_index/resource_index/packages/ros2_path_planning
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/cmake/ros2_path_planningConfig.cmake
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/cmake/ros2_path_planningConfig-version.cmake
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/share/ros2_path_planning/package.xml

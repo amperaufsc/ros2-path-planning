@@ -1,0 +1,11 @@
+-- Install configuration: ""
+-- Installing: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/lib/ros2_path_planning/path_publisher.py
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot find
+  "/home/yasmin-nunes/ros2-path-planning/src/path_planning/src/fsds_msgs": No
+  such file or directory.
+
+[0m
+-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference
+-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference/__init__.py
+-- Up-to-date: /home/yasmin-nunes/ros2-path-planning/install/ros2_path_planning/path_planning/ros2_path_planning/bayesian_inference/bayesian_inference_planner.py

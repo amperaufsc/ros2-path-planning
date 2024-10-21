@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot find
+  "/home/yasmin-nunes/ros2-path-planning/src/path_planning/src/fsds_msgs": No
+  such file or directory.
+
+[0m
